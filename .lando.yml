@@ -1,0 +1,7 @@
+name: wild-web-machine
+recipe: wordpress
+config:
+  webroot: web
+  via: nginx
+  php: 7.2
+  database: mariadb
